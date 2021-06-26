@@ -1,2 +1,2 @@
 # papa-polar-bear
-Repository for code projects in JavaScript, SQL, and Python. Where projects are stored in conjunction to a Udacity Nanodegree that I'm taking, among others. In line with multi-purpose programming, querying databases, and with the practice of Data Engineering.
+An online repository for simple code projects built/written in JavaScript, SQL, and Python. Where projects are created in conjunction to learning courses that I'm taking, among others. Apart from personally just wanting to write code. In line with properly learning multi-purpose programming, querying databases, and with a goal of practicing Data Engineering on the Cloud.
