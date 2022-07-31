@@ -2,6 +2,10 @@ weight = 41.5
 
 # Ground shipping
 
+"""
+Calculates shipping cost based on variable inputs
+"""
+
 if weight <= 2:
   cost = (weight * 1.50) + 20
 elif weight <= 6:
