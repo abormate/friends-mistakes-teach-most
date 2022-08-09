@@ -1,3 +1,5 @@
+# Codey's varying weights on different planets with different specific gravities
+
 print("I have information for the following planets:\n")
 
 print("   1. Venus   2. Mars    3. Jupiter")
