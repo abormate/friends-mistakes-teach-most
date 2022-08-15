@@ -1,3 +1,5 @@
+# Outputs a max number from out of three values passed into this function
+
 def max_num(num1, num2, num3):
   if num1 > num2 and num1 > num3:
     return num1
