@@ -1,3 +1,5 @@
+// JavaScript program that evaluates your age in integers and outputs its nearest equivalent in dog years
+
 // this is my age number
 var myAge = 32;
 
