@@ -1,3 +1,5 @@
+// JavaScript simple game around the concept of rock-paper-scissors. Wherein you need to first supply what your pick is. And the computer will evaluate after.
+
 const getUserChoice = userInput => {
   userInput = userInput.toLowerCase();
   if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors') {
