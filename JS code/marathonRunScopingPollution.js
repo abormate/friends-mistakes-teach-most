@@ -1,5 +1,6 @@
-// The scope of `random` is too loose
+// Variable scoping exercise
 
+// The scope of `random` is too loose
 
 const getRandEvent = () => {
   const random = Math.floor(Math.random() * 3);
