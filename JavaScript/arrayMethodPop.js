@@ -1,3 +1,5 @@
+// Another JS array method, .pop(), removes the last item of an array.
+
 const newItemTracker = ['item 0', 'item 1', 'item 2'];
  
 const removed = newItemTracker.pop();
