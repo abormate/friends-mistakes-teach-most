@@ -1,3 +1,5 @@
+// When you pass an array into a function, if the array is mutated inside the function, that change will be maintained outside the function as well.
+
 const concept = ['arrays', 'can', 'be', 'mutated'];
 
 function changeArr(arr){
