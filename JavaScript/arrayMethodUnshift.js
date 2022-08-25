@@ -4,3 +4,5 @@ const groceryList = ['orange juice', 'bananas', 'coffee beans', 'brown rice', 'p
 
 groceryList.unshift('cheeseburgers');
 console.log(groceryList);
+
+// Outputs an array having 'cheeseburgers' at the beginning
