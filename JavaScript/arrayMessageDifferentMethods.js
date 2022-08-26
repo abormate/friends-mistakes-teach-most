@@ -14,3 +14,6 @@ message.unshift('Programming');
 
 message.splice(6, 5, 'know');
 console.log(message.join());
+
+
+// Outputs a meaningful message about learning how to code 
