@@ -9,3 +9,5 @@ for (let i=0; i < bobsFollowers.length; i++) {
   }
 };
 console.log(mutualFollowers);
+
+// Outputs the mutual followers of array list Bob's followers as it evaluates what are common followers with Tina's list.
