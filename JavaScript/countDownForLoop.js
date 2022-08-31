@@ -2,3 +2,5 @@
 for (let counter = 3; counter >= 0; counter--){
   console.log(counter);
 }
+
+Outputs counting down from 3 to 0
