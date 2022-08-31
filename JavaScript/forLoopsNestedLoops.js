@@ -1,3 +1,5 @@
+// One way nested for loops are utilized is to compare values of one array with another.
+
 const myArray = [7, 19, 20];
 const yourArray = [19, 81, 2];
 for (let i = 0; i < myArray.length; i++) {
