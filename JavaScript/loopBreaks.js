@@ -1,3 +1,5 @@
+// Loop breaks allow you to stop an ongoing loop prior to encountering a false value for its stopping condition. This is helpful if there is another condition that you're looking for to when to stop a loop
+
 const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious Z", "Tupac"];
 
 // Write your code below
