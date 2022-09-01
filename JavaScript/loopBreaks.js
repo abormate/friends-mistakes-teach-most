@@ -7,4 +7,6 @@ for (let i=0; i < rapperArray.length; i++) {
     break;
   }
 }
-console.log("And that's all folks!")
+console.log("And that's all folks!");
+
+// Outputs rapper list names until "Notorious Z" is encountered, which will then end the loop. 
