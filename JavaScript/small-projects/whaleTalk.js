@@ -1,3 +1,5 @@
+// Translates phrases or sentences into Whale language that's sung in the ocean.
+
 let input = 'Hi there, you!';
 const vowels = ['a', 'e', 'i', 'o', 'u'];
 let resultArray = [];
