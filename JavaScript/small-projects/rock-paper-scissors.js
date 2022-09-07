@@ -53,3 +53,5 @@ const playGame = (userChoice = getUserChoice('rock'), computerChoice = getComput
 };
 
 playGame();
+
+// Evaluates randomly generated computer entry with the player's initial entry (whether rock, paper, or scissors) and then says who won a particular match
