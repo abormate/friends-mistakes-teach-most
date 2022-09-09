@@ -1,3 +1,5 @@
+// Functions invoked as Parameters
+
 const higherOrderFunc = param => {
   param();
   return `I just invoked ${param.name} as a callback function!`
