@@ -73,3 +73,5 @@ function outputToSpreadsheet(results) {
       .setValues(results.getRows());
 
 }
+
+// CloudRun Function 
