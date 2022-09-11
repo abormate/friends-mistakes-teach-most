@@ -57,3 +57,5 @@ else {
 }
 
 console.log(eightBall)
+
+// Magic 8th Ball 
