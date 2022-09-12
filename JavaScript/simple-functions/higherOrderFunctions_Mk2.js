@@ -1,3 +1,5 @@
+// Higher order functions are functions that take in other functions as values for their arguments. These sub-functions are called Call back functions.
+
 const addTwo = num => {
   return num + 2;
 }
