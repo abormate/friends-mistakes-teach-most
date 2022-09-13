@@ -1,3 +1,5 @@
+// Arrow notation for callback function
+
 const fruits = ['mango', 'papaya', 'pineapple', 'apple'];
 
 // Iterate over fruits below
