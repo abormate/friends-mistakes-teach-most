@@ -10,3 +10,4 @@ const startsWithS = animals.findIndex(animal => {
 });
 
 // first code block under definition of array for animals. Outputs animal array index for 'elephant'
+// second code block, outputs the first animal on the array that begins with a letter 's'.
