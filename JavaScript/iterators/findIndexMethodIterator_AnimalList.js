@@ -8,3 +8,5 @@ const foundAnimal = animals.findIndex(animal => {
 const startsWithS = animals.findIndex(animal => {
   return animal[0] === 's';
 });
+
+// first code block under definition of array for animals. Outputs animal array index for 'elephant'
