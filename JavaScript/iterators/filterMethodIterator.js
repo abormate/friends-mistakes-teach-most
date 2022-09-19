@@ -16,3 +16,4 @@ const longFavoriteWords = favoriteWords.filter(word => {
 });
 
 // returns an array of words with more than 7 characters
+// Utilizes the filter method for array iterators
