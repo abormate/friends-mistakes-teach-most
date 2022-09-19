@@ -17,3 +17,5 @@ const interestingWords = words.filter(word => {
 console.log(interestingWords.every((word) => {
   return word.length > 5;
  } ));
+
+// "every()" iterator outputs if there is an element within an array that returns true for a given evaluation
