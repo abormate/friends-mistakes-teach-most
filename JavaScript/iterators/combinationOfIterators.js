@@ -19,3 +19,4 @@ console.log(interestingWords.every((word) => {
  } ));
 
 // "every()" iterator outputs if there is an element within an array that returns true for a given evaluation
+// "some()" is very similar to every()
