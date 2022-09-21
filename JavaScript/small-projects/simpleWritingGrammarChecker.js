@@ -9,9 +9,13 @@ let badWord = 'freaking';
 // console.log(storyWords);
 
 let count = 0;
-storyWords.forEach(word => {
+storyWords.forEach((word) => {
   count++;
 });
 console.log(count);
+
+storyWords.filter((word) => {
+  return word !== unnecessaryWord;
+});
 
 console.log(storyWords.join(' '));
