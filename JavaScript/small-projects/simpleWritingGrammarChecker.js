@@ -10,6 +10,16 @@ In the callback’s body, define a conditional statement to check if the word ar
 Take a look at the story string in the console to see the correct spellings! You can see one instance of the spellchecked word in the first sentence of the story.
 */
 
+/*
+Uh oh, your great grandmother is going to read the story and there’s a “bad” word in it! Let’s apply the .findIndex() method to storyWords to find the index of the bad word.
+
+Start by declaring a variable called badWordIndex and setting it to the invocation of .findIndex() on the storyWords array.
+
+The .findIndex() callback function should check each word to see if it equals the badWord variable declared on line 6, and return the index of the found word.
+
+Then, log badWordIndex to the console.
+*/
+
 let story = 'Last weekend, I took literally the most beautifull bike ride of my life. The route is called "The 9W to Nyack" and it stretches all the way from Riverside Park in Manhattan to South Nyack, New Jersey. It\'s really an adventure from beginning to end! It is a 48 mile loop and it literally took me an entire day. I stopped at Riverbank State Park to take some artsy photos. It was a short stop, though, because I had a freaking long way to go. After a quick photo op at the very popular Little Red Lighthouse I began my trek across the George Washington Bridge into New Jersey. The GW is a breathtaking 4,760 feet long! I was already very tired by the time I got to the other side. An hour later, I reached Greenbrook Nature Sanctuary, an extremely beautifull park along the coast of the Hudson. Something that was very surprising to me was that near the end of the route you literally cross back into New York! At this point, you are very close to the end.';
 
 let storyWords = story.split(' ');
