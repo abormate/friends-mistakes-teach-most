@@ -62,4 +62,10 @@ const badWordIndex = storyWords.findIndex((word) => {
 console.log(badWordIndex);
 storyWords[78] = 'really';
 
+const lengthCheck = storyWords.every((word) => {
+  return word.length < 10;
+});
+
+console.log(lengthCheck);
+
 console.log(storyWords.join(' '));
