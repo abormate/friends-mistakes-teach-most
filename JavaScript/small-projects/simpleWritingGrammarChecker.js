@@ -55,4 +55,11 @@ storyWords = storyWords.map((word) => {
   }
 });
 
+const badWordIndex = storyWords.findIndex((word) => {
+  return word === badWord;
+});
+
+console.log(badWordIndex);
+storyWords[78] = 'really';
+
 console.log(storyWords.join(' '));
