@@ -75,3 +75,5 @@ console.log(storyWords.findIndex((word) => {
 storyWords[111] = 'dazzling';
 
 console.log(storyWords.join(' '));
+
+// Check Mozilla's JS documentation solution for more iterator methods that's helpful and available for arrays
