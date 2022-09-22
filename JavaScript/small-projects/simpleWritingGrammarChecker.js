@@ -68,4 +68,10 @@ const lengthCheck = storyWords.every((word) => {
 
 console.log(lengthCheck);
 
+console.log(storyWords.findIndex((word) => {
+  return word.length > 10;
+}));
+
+storyWords[111] = 'dazzling';
+
 console.log(storyWords.join(' '));
