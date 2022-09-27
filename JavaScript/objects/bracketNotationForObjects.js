@@ -14,3 +14,4 @@ const isActive = spaceship['Active Mission'];
 console.log(spaceship[propName]);
 
 // isActive variable gets assigned to the value of property Active Mission which is "true"
+// last console log writes the value of variable propName and calls it inside the bracket notation which initially invokes the object Spaceship
