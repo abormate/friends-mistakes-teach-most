@@ -1,3 +1,5 @@
+// defines an object with various properties then assigns a property value from the previously defined object unto a variable
+ 
 let spaceship = {
   'Fuel Type' : 'Turbo Fuel',
   'Active Mission' : true,
