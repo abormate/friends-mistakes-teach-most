@@ -11,3 +11,5 @@ let propName =  'Active Mission';
 
 // Write your code below
 const isActive = spaceship['Active Mission'];
+
+// isActive variable gets assigned to the value of property Active Mission which is "true"
