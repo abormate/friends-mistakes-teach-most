@@ -1,3 +1,5 @@
+// With Objects, you can add or remove properties with dot or bracket notations
+
 let spaceship = {
   'Fuel Type' : 'Turbo Fuel',
   homePlanet : 'Earth',
