@@ -8,3 +8,6 @@ const alienShip = {
     console.log('Spim... Borp... Glix... Blastoff!');
   }
 };
+
+alienShip.retreat();
+alienShip.takeOff();
