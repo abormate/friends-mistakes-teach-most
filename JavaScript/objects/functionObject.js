@@ -13,3 +13,5 @@ const alienShip = {
 
 alienShip.retreat();
 alienShip.takeOff();
+
+// This outputs the retreat message and the takeoff message to the console
