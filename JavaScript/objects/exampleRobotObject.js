@@ -1,3 +1,5 @@
+// robo introductions -- codecademy learning module for learning JS objects 
+
 const robot = {
   model: 'M-4MI',
   mobile: true,
