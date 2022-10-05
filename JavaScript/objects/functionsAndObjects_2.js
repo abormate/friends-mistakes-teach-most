@@ -7,3 +7,5 @@ const robot = {
 };
 
 console.log(robot.provideInfo());
+
+// "this" keyword found above references the object from where the function was called. It allows you to access variables or keys with value from inside the JS object
