@@ -10,7 +10,7 @@ let spaceship = {
       name: 'Sandra', 
       degree: 'Computer Engineering', 
       encourageTeam() { console.log('We got this!') },
-     'favorite foods': ['cookies', 'cakes', 'candy', 'spinach'] }
+     'favorite foods': ['cookies', 'bacon', 'noodles', 'cakes', 'candy', 'spinach'] }
   },
   engine: {
     model: "Nimbus2000"
