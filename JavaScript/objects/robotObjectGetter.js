@@ -12,3 +12,4 @@ const robot = {
 console.log(robot.energyLevel);
 
 // get energylevel function inside an object 
+// getter method that calls a function inside an object that has a property referenced within the same object
