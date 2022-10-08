@@ -4,8 +4,11 @@ const robot = {
   get energyLevel() {
     if (typeof this._energyLevel === 'number') {
       return 'My current energy level is ' + this._energyLevel;
+    } else {
+      return 'System malfunction: cannot retrieve energy level';
     }
   }
 };
+console.log(robot.energyLevel);
 
 // get energylevel function inside an object 
