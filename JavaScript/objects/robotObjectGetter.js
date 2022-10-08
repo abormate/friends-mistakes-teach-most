@@ -5,3 +5,5 @@ const robot = {
 
   }
 };
+
+// get energylevel function inside an object 
