@@ -1,3 +1,7 @@
+/*
+There are also useful Object class methods such as Object.assign(), Object.entries(), and Object.keys() just to name a few. For a comprehensive list, browse: MDN’s object instance documentation.
+*/
+
 const robot = {
 	model: 'SAL-1000',
   mobile: true,
