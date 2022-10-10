@@ -21,3 +21,5 @@ const robot = {
 
 robot.numOfSensors = 100;
 console.log(robot.numOfSensors);
+
+// Object Setter (Set) methods are able to change a property value stored within an Object
