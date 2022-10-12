@@ -24,3 +24,5 @@ menu._meal = 'Pizza';
 menu._price = 12;
 
 console.log(menu.todaysSpecial);
+
+// Checks whether the price is a number and the meal defined is a string. Then outputs these from the object into a getter method.
