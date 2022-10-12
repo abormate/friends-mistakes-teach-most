@@ -29,3 +29,5 @@ team.addPlayer('Bugs', 'Bunny', 76);
 
 team.addGame('Titans', 100, 98);
 console.log(team)
+
+// Lets you add to the players and games properties within the team's object with functions or methods added to the team object
