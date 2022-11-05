@@ -18,3 +18,5 @@ console.log("isStringPerfectLength('Mouse', 2, 4) returns: " + isStringPerfectLe
 
 // Should return false
 console.log("isStringPerfectLength('Cat', 4, 9) returns: " + isStringPerfectLength('Cat', 4, 9));
+
+// Errors displayed on screen after a code commit shows you how you can improve and fix your code 
