@@ -10,3 +10,5 @@ Take a look at the diagram to the right to see where you can find all of this in
 
 As a new programmer, it’s easy to see an error and be overcome with a sense of dread and self-doubt. However, you’ll soon realize, errors are the best kind of bug you can hope for, since they tell you exactly what went wrong and where.
 </p>
+
+// Error stacks are the error message that the computer compiler displays oncreen when it encounters something wrong or unexpected from the output of your code
