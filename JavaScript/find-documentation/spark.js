@@ -5,3 +5,5 @@ function containsSpark(string) {
     return false
   }
 }
+
+// Checks to see whether an input string is the same with a string you're looking for
