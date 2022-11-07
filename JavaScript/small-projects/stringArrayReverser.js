@@ -9,3 +9,5 @@ let reverseArray = (array) => {
 };
 
 console.log(reverseArray(sentence));
+
+// Takes an input string collection, like a sentence, and reverses the order with which the elements appear on a sentence
