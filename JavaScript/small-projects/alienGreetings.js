@@ -5,3 +5,7 @@ let greetAliens = (array) => {
   }
   return result;
 }
+
+const aliens = ["Blorgous", "Glamyx", "Wegord", "SpaceKing"];
+
+greetAliens(aliens);
