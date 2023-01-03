@@ -1,4 +1,4 @@
-// function JS to export and move data from Google Analytics service API into a Data Warehouse ----
+// function JS to export and move data from Google Analytics service API into a Data Warehouse --
 function GaExport() {
   try {
 
