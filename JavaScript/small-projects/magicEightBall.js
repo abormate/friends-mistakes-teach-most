@@ -1,4 +1,4 @@
-// eightBall program running vanilla JavaScript ----
+// eightBall program running vanilla JavaScript -------
 
 // define username
 let userName = 'Abraham';
