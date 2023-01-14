@@ -1,4 +1,4 @@
-// Variable scoping exercise -------
+// Variable scoping exercise -
 
 // The scope of `random` is too loose
 
