@@ -12,4 +12,4 @@ As a new programmer, it’s easy to see an error and be overcome with a sense of
 </p>
 
 // Error stacks are the error message that the computer compiler displays oncreen when it encounters something wrong or unexpected from the output of your code
----
+
