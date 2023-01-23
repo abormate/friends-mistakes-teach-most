@@ -13,4 +13,4 @@ const checkConsistentOutput = (func, val) => {
 console.log(checkConsistentOutput(addTwo, 12));
 
 // Outputs if num +2 is always what is expected through a Higher order function
----
+-----
