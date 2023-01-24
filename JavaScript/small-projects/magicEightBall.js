@@ -1,4 +1,4 @@
-----
+------
   
 // eightBall program running vanilla JavaScript
 
