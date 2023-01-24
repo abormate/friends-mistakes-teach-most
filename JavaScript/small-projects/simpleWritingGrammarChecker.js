@@ -1,4 +1,4 @@
-/* ------
+/* --------
 Now that we’ve removed the unnecessary words, let’s take care of any misspelled words in the story. We can reassign storyWords to a new array of spell-checked words using the .map() method!
 
 Reassign storyWords to equal the invocation of the .map() method on the storyWords array.
