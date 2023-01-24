@@ -1,3 +1,5 @@
+---
+  
 function doubleString(string) {
   return string.repeat(2);
 }
