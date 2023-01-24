@@ -11,4 +11,4 @@ const anotherFunc = () => {
  
 higherOrderFunc(anotherFunc);
 
----
+
