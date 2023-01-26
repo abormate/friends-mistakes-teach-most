@@ -1,5 +1,7 @@
 // A simple calculator that will add up each night's sleep debt -- and will tell how many hours you need to sleep for the next night's slumber
 // function to returning each given night's hours of sleep
+
+//
 const getSleepHours = day => {
   switch (day) {
     case 'monday':
