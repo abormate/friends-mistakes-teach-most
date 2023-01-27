@@ -1,4 +1,4 @@
-// Functions invoked as Parameters --
+// Functions invoked as Parameters ---
 
 const higherOrderFunc = param => {
   param();
