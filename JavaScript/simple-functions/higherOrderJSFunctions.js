@@ -5,3 +5,5 @@ higherOrderFunc(() => {
     console.log(i);
   }
 });
+
+// from learning space
