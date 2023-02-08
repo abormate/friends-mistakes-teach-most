@@ -60,4 +60,4 @@ else {
 
 console.log(eightBall)
 
-// Magic 8th Ball ///
+// Magic 8th Ball /////
