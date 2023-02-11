@@ -39,3 +39,10 @@ Define the function to accept two parameters for our two lists of numbers
 Check if the length of the first list is greater than or equal to the length of the second list
 If true, then return the last element from the first list. Otherwise, return the last element from the second list
 """
+
+"""
+Write a function named larger_list that has two parameters named my_list1 and my_list2.
+
+The function should return the last element of the list that contains more elements. If both lists are the same size, then return the last element of my_list1.
+
+"""
