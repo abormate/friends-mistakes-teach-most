@@ -10,7 +10,7 @@ def append_size(my_list):
   my_list.append(len(my_list))
   return my_list
 
-#-----------------------------------------------------------------------
+# -----------------------------------------------------------------------
 
 """
 Write a function named append_sum that has one parameter — a list named named my_list.
@@ -25,3 +25,5 @@ def append_sum(my_list):
   my_list.append(my_list[-1] + my_list[-2])
   my_list.append(my_list[-1] + my_list[-2])
   return my_list
+
+# -----------------------------------------------------------------------
