@@ -54,3 +54,17 @@ def larger_list(my_list1, my_list2):
     return my_list1[-1]
   else:
     return my_list2[-1]
+  
+# ------------------------------------------------------------------------------------
+
+# Challenge item 4 
+
+"""
+Our factory produces a variety of different flavored snacks and we want to check the number of instances of a certain type. We have a conveyor belt full of different types of snacks represented by different numbers. Our function will accept a list of numbers (representing the type of snack), a number for the second parameter (the type of snack we are looking for), and another number as the third parameter (the maximum number of that type of snack on the conveyor belt). The function will return True if the snack we are searching for appears more times than we provided as our third parameter. These are the steps we need:
+
+Define the function to accept three parameters, a list of numbers, a number to look for, and a number for the number of instances
+Count the number of occurrences of item (the second parameter) in my_list (the first parameter)
+If the number of occurrences is greater than n (the third parameter), return True. Otherwise, return False
+"""
+
+
