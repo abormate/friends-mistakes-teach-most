@@ -19,3 +19,9 @@ The function should add the last two elements of my_list together and append the
 
 For example, if my_list started as [1, 1, 2], the final result should be [1, 1, 2, 3, 5, 8].
 """
+
+def append_sum(my_list):
+  my_list.append(my_list[-1] + my_list[-2])
+  my_list.append(my_list[-1] + my_list[-2])
+  my_list.append(my_list[-1] + my_list[-2])
+  return my_list
