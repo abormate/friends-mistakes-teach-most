@@ -1,3 +1,5 @@
+# Challenge item 1
+
 """
 Create a function called append_size that has one parameter named my_list.
 
@@ -11,6 +13,8 @@ def append_size(my_list):
   return my_list
 
 # -----------------------------------------------------------------------
+
+# Challenge item 2
 
 """
 Write a function named append_sum that has one parameter — a list named named my_list.
