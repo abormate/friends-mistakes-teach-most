@@ -1,5 +1,5 @@
 ---
-- hosts: Stork  # Replace with the actual hostname or IP address
+- hosts: Stork  # Replace with the actual hostname or IP address --> groot@stmail01
   become: true
   tasks:
   - name: Install postfix and dovecot
