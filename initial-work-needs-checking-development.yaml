@@ -1,0 +1,62 @@
+---
+- hosts: Stork  # Replace with the actual hostname or IP address
+  become: true
+  tasks:
+  - name: Install postfix and dovecot
+    apt:
+      name:
+        - postfix
+        - dovecot-imapd
+        - dovecot-pop3d
+      state: present
+
+  - name: Configure postfix
+    lineinfile:
+      path: /etc/postfix/main.cf
+      line: "{{ item }}"
+    with_items:
+      - myhostname = Stork.x.com  # Replace with the actual hostname
+      - mydomain = stratos.x.com
+      - myorigin = $mydomain
+      - inet_interfaces = all
+      - inet_protocols = all
+      - mydestination = $myhostname, localhost.$mydomain, localhost
+      - home_mailbox = Maildir/
+
+  - name: Create email account
+    useradd:
+      name: siva
+      password: "GyQkFRVNr3"  # You might want to hash this password
+      home: /home/siva
+      createhome: yes
+      shell: /bin/bash
+
+  - name: Set mail directory
+    file:
+      path: /home/siva/Maildir
+      state: directory
+      owner: siva
+      group: siva
+      mode: 0700
+
+  - name: Configure dovecot
+    blockinfile:
+      path: /etc/dovecot/conf.d/10-mail.conf
+      block: |
+        mail_location = maildir:~/Maildir
+    notify: restart dovecot
+
+  - name: Enable dovecot services
+    service:
+      name: "{{ item }}"
+      state: started
+      enabled: yes
+    with_items:
+      - dovecot
+      - postfix
+
+  handlers:
+  - name: restart dovecot
+    service:
+      name: dovecot
+      state: restarted
